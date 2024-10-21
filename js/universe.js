@@ -7,4 +7,3 @@ function debounce(fn, time) {
     if (TT !== null) clearTimeout(TT);
     TT = setTimeout(fn, time);
 }
-
